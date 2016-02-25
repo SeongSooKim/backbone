@@ -25,6 +25,57 @@ fdassfdfsdafds
   </div>
   <div class="col-lg-6">
     <div class="panel panel-warning">
+    <div class="row" >
+  <div class="col-lg-6">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Beginners</h3>
+      </div>
+      <div class="list-group">
+          {% for post in site.posts %}
+            {% if post.type == "beginner" %}
+            <a href="{{ post.url }}" class="list-group-item ">{{ post.title }}</a>
+            {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel panel-warning">
+    <div class="row" >
+  <div class="col-lg-6">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Beginners</h3>
+      </div>
+      <div class="list-group">
+          {% for post in site.posts %}
+            {% if post.type == "beginner" %}
+            <a href="{{ post.url }}" class="list-group-item ">{{ post.title }}</a>
+            {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel panel-warning">
+    <div class="row" >
+  <div class="col-lg-6">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Beginners</h3>
+      </div>
+      <div class="list-group">
+          {% for post in site.posts %}
+            {% if post.type == "beginner" %}
+            <a href="{{ post.url }}" class="list-group-item ">{{ post.title }}</a>
+            {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel panel-warning">
       <div class="panel-heading">
         <h3 class="panel-title">Intermediate</h3>
       </div>
